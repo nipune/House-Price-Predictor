@@ -45,5 +45,8 @@ $ python server.py
 * store that model into pickle file and colums into json file
 * Use HTML, Javascript and FLask to develop UI interface
 
+## Output
+
+![House Price Image](HousePrice.gif)
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics

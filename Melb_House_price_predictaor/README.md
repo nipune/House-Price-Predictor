@@ -26,7 +26,7 @@ $ python server.py
 ```
 
 ## Directory Structure
-[!Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/dir_structure.gif)
+![image](dir_structure.gif)
 
 ## Features
 * This simple web interface calcuates house price based on RandomForestregressor algorithm

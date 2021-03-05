@@ -3,8 +3,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Project Directory Structure](#directory-structure)
-* [Features] (#features)
-* [Sources]
+* [Features](#features)
+* [Sources](#sources)
 
 ## General info
 This project is predicting Melboure House price based on suburb selection.
@@ -26,9 +26,9 @@ $ python server.py
 ```
 
 ## Directory Structure
-![Project Directory Structure](./dir_structure.png)
+![Project Directory Structure](dir_structure.png)
 
-# Features
+## Features
 * This simple web interface calcuates house price based on RandomForestregressor algorithm
 * CSV File data downloaded from Kaggle -Melbourne_full_House.csv
 * cleaned the data using following criteria:

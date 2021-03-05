@@ -26,7 +26,7 @@ $ python server.py
 ```
 
 ## Directory Structure
-![Project Directory Structure] (https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/dir_structure.PNG)
+[!Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/dir_structure.PNG)
 
 ## Features
 * This simple web interface calcuates house price based on RandomForestregressor algorithm
@@ -47,6 +47,6 @@ $ python server.py
 
 ## Output
 
-![House Price Image](HousePrice.gif)
+![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics

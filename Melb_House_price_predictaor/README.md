@@ -50,7 +50,7 @@ $ python server.py
 * After cleaning data, Team remove Price and bedroom outliers to remove incorrect data.
 * To get the condifence around the clean data, distribution plot was created to see the price trend and it was clearly showing less outliners.
 * Fit and Train the data using test and train model. and use linear-regression algorithm to fit the model and find out the score. 
-* ![scoreimage](model_score.gif)
+* ![image](model_score.gif)
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
@@ -63,7 +63,7 @@ $ python server.py
 * stuff
 
 ## Output
-![ComparePrediction](comparepred.png)
+![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/comparisonpred.png)
 ![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics

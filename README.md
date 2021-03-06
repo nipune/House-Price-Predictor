@@ -71,7 +71,10 @@ $ python server.py
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
 * The plot below is of the linear regression model looking at the Australian house price data. With a 80% fit to the data and mean absolute error of $114,352
+
 ![image](https://github.com/nipune/Project-2/blob/main/Images/comparisonpred.png)
+
+
 ## Sentiment Analysis
 * Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis and generate the output.
 * The word cloud used news articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 

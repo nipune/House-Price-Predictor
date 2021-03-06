@@ -8,7 +8,9 @@
 * [Sources](#sources)
 
 ## General info
-This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices.  
+This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices. The team used all three notebook types: Jupyter Notebook (on local machines), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
+
+For this project the team crunched both large and smaller datasets, this tested both our patience and Google Colab/AWS SageMakers computational (free/unpaid for) limits. Given the demand on our local machines, the team decided to eacn run separate notebooks to both clean data and verify/crunch different models, with a view to see which model would best fit. In the supplementary material folder, this includes alternative notebooks should you want to see the code itself. This has been summarised in our [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
 	
 ## Technologies
 Project is created with:
@@ -33,8 +35,8 @@ $ python server.py
 ## Features
 * This entire project is comparing multiple features which are very important as part of Real Estate data analysis. By filtering for valid data then integrating the dataset using a simple web interface. The output is a prediction of house prices in Victorian suburbs based on the Random Forest Regressor Algorithm.
 * There were two datasets used as part of this project from Kaggle: 
-	* 1. Melbourne_houseing_full.csv which has data from 2016 till 2018
-	* 2. Aus-property-sales-sep2018-april2020.csv
+	* 1. Melbourne_houseing_full.csv which has data from 2016 till 2018 (5MB)
+	* 2. Aus-property-sales-sep2018-april2020.csv (37MB)
 * During our Analysis, Team used following machine learning models to conclude which algorithm works best to predict house prices
 	* Linear regression
 	* Balanced Random Forest
@@ -46,7 +48,7 @@ $ python server.py
 * Dimensionality reduction technique was applied to the data to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. For example, the following columns that were not as important to predict house prices: longitude, latititude, loc_pid, lat_pid etc..
 
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
-* Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
+* Team also performed feature engineering to generate new feature named price_per_sqm to train the model* 
 * For the data cleaning process the following data cleansing techniques were applied:
     * Remove the rows with null values.
     * Remove the rows where landsize or building area has a 0 value.
@@ -67,29 +69,12 @@ $ python server.py
 * Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis and generate the output.
 * The word cloud used news articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
 ![image](https://github.com/nipune/Project-2/blob/main/Images/word%20cloud%20.PNG)
-*
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
-* 
-* 
-* **more stuff
-* stuff**
+
 
 ## Output
 ![Image](https://github.com/nipune/Project-2/blob/main/Images/House%20Predictor.GIF)
 * To develop the user interface the following were used: Use HTML, Javascript and FLask. This interface gives the end user an easy way to determine what the median house price is for a chosen suburb based on the selection criteria.  
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics
-
-### Technical Requirements
-
-* Create a Jupyter Notebook, Google Colab Notebook, or Amazon SageMaker Notebook to prepare a training and testing dataset. Optionally, apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model.
-
-All three notebook types were used: Jupyter Notebook (on a local machine), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx)
-
-* Fit the model(s) to the training data.
-* Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance.
-* Show the predictions using a sample of new data. Compare the predictions if more than one model is used.
-* Save PNG images of your visualizations to distribute to the class and instructional team and for inclusion in your presentation and your repo's README.md file.
-* Use one new machine learning library, machine learning model, or evaluation metric that hasn't been covered in class.
-* Create a README.md in your repo with a write-up summarizing your project. Be sure to include any usage instructions to set up and use the model.

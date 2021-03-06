@@ -21,7 +21,7 @@ To run this project, install flask in your local machine:
 ```
 $ pip install pickle
 $ pip install flask
-$ cd ../Melb_house_price_predictor/server
+$ cd Melb_house_price_predictor/server
 $ python server.py
 ```
 
@@ -29,18 +29,33 @@ $ python server.py
 ![image](dir_structure.gif)
 
 ## Features
-* This simple web interface calcuates house price based on RandomForestregressor algorithm
-* CSV File data downloaded from Kaggle -Melbourne_full_House.csv
-* cleaned the data using following criteria:
+* This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data and then integrate one of the dataset with simple web interface calcuates house price of melbourne suburbs based on RandomForestregressor algorithm.
+* During our Analysis, Team used following machine learning models to conclude which algorithm works best to predict house prices
+ 		1. Linear regression
+		2. Balanced Random Forest
+		3. Random Forest Regressor
+		4. Gradient Boosting Regressor
+		5. Easy Ensemble Classifier
+		6. Decision Tree Regressor
+* Two dataset downloaded from Kaggle are -Melbourne_houseing_full.csv which has data from 2016 till 2018 and Aus-property-sales-sep2018-april2020.csv
+* Team apply a dimensionality reduction technique to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. for example, remove the columns which are not very importanat to predict house price like longitude, latititude, loc_pid, lat_pid etc..
+* Team also used chisquare method to determine which features are morr important to build house price prediction model.
+* Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
+* Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
+* For Data cleaning tehnique, following criteria used:
     * Remove the rows with null values
     * Remove the rows landsize or building area which has 0 value
     * Remove the rows where building area is greatre than landsize
-    * Suburub with one property grouped as 'Other'
-* Remove Price and bedroom outliers
-* Create distribution plot to see the price trend
-* Split the data and use linearregression algorithm to fit the model and find out the score
+    * Suburub with 10 or less property grouped as 'Other'
+* After cleaning data, Team remove Price and bedroom outliers to remove incorrect data.
+* To get the condifence around the clean data, distribution plot was created to see the price trend and it was clearly showing less outliners.
+* Fit and Train the data using test and train model. and use linear-regression algorithm to fit the model and find out the score. 
+* ![scoreimage](model_score.gif)
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
-* RandomForest gave best score of .75
+* RandomForestRegressor gave best score of .75
+* _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
+* Compare the predictions if more than one model is used- Need more example here
+* Use Sentiment analysis for real estate to support our analysis that what is causing boost in price increase.
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
 * Use HTML, Javascript and FLask to develop UI interface
@@ -48,19 +63,13 @@ $ python server.py
 * stuff
 
 ## Output
-
+![ComparePrediction](comparepred.png)
 ![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics
 
 
 ## Create a Jupyter Notebook, Google Colab Notebook, or Amazon SageMaker Notebook to prepare a training and testing dataset.
-
-
- ## Optionally, apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model.
-
-
- ## Create one or more machine learning models.
 
 
  ## Fit the model(s) to the training data.

@@ -10,11 +10,15 @@
 ## General info
 This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices. 
 
-The team used three notebook types: Jupyter Notebook (on local machines), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the presentation.
-
-For this project the team crunched both large and smaller datasets, this tested both our patience and Google Colab/AWS SageMakers computational (free/unpaid for) limits. Given the demand on our local machines, the team decided to eacn run separate notebooks to both clean data and verify/crunch different models, with a view to see which model would best fit. 
+For this project the team crunched both large and smaller datasets, this tested both our patience and Google Colab/AWS SageMakers computational limits. Given the demand on our local machines, the team decided to eacn run separate notebooks to both clean data and verify/crunch different models, with a view to see which model would best fit. 
 
 We have included in the supplementary material folder these alternative notebooks should you want to see the code itself. This has been summarised in our [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
+
+Please note that due to github filesize limitations, two pickle files: BalancedRandomForestClassifier.p & EasyEnsembleClassifier.p have not been included in the supplementary material folder (19.9 GB & 668 MB respectively). These can be crunched by unhashing code in Khemero's [notebook](https://github.com/nipune/Project-2/blob/main/Supplementary_material/Khemero.ipynb) at your leisure.
+
+For AWS Sagemaker, the ml.t3.medium notebook instance type was the best choice available without contacting AWS Support. This was quite a fast machine, crunching the EEC model in 62.1minutes vs. a local machine speed of 116.8 mins.
+
+For Google Colab, the default notebook instance was used, generally, Colab was unuseable as the session would 'crash after using all available RAM' quite easily (a local machine had no such issues with the simpler models).
 	
 ## Technologies
 Project is created with:

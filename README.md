@@ -85,7 +85,7 @@ This Webinterface application development is inspired by Machine Learning & Data
 
 * Create a Jupyter Notebook, Google Colab Notebook, or Amazon SageMaker Notebook to prepare a training and testing dataset. Optionally, apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model.
 
-All three notebook types were used: Jupyter Notebook (on a local machine), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in png format. [1][2]
+All three notebook types were used: Jupyter Notebook (on a local machine), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx)
 
 * Fit the model(s) to the training data.
 * Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance.

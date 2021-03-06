@@ -29,19 +29,19 @@ $ python server.py
 ![image](dir_structure.gif)
 
 ## Features
-* This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data then integrate the dataset using a simple web interface to calcuate house prices of melbourne suburbs based on the RandomForestregressor algorithm.
+* This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data then integrate the dataset using a simple web interface to calcuate house price predictions of Melbourne suburbs based on the Random Forest Regressor Algorithm.
 * During our Analysis, Team used following machine learning models to conclude which algorithm works best to predict house prices
- 		1. Linear regression
-		2. Balanced Random Forest
-		3. Random Forest Regressor
-		4. Gradient Boosting Regressor
-		5. Easy Ensemble Classifier
-		6. Decision Tree Regressor
-* Two dataset has been used as part of this project from Kaggle 
+ 		- Linear regression
+		- Balanced Random Forest
+		- Random Forest Regressor
+		- Gradient Boosting Regressor
+		- Easy Ensemble Classifier
+		- Decision Tree Regressor
+* Two datasets have been used as part of this project from Kaggle: 
 * 	1. Melbourne_houseing_full.csv which has data from 2016 till 2018 
 * 	2. Aus-property-sales-sep2018-april2020.csv
 * Team apply a dimensionality reduction technique to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. For example, the following columns that were not as important to predict house prices: longitude, latititude, loc_pid, lat_pid etc..
-* Team also used ChiSquare Test to determine which features are more important to build a house price prediction model.
+* As part of features selection the team used the ChiSquare Test to determine which features are more important to build a house price prediction model.
 * The output below is the result from the ChiSquare Test. 
 ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
@@ -65,16 +65,16 @@ $ python server.py
 * The word cloud was using new articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
 * ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
 *
-*
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
 * 
-* Use HTML, Javascript and FLask to develop UI interface
-* more stuff
-* stuff
+* 
+* **more stuff
+* stuff**
 
 ## Output
 ![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
+* To develop the user interface the following were used: Use HTML, Javascript and FLask to develop UI interface. This interface gives the end user an easy way to determine what the median house price is for a chosen suburb based on the selection criteria.  
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics
 

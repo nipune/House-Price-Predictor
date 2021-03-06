@@ -31,12 +31,12 @@ $ python server.py
 ## Features
 * This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data then integrate the dataset using a simple web interface to calcuate house price predictions of Melbourne suburbs based on the Random Forest Regressor Algorithm.
 * During our Analysis, Team used following machine learning models to conclude which algorithm works best to predict house prices
- 		- Linear regression
-		- Balanced Random Forest
-		- Random Forest Regressor
-		- Gradient Boosting Regressor
-		- Easy Ensemble Classifier
-		- Decision Tree Regressor
+ 		* Linear regression
+		* Balanced Random Forest
+		* Random Forest Regressor
+		* Gradient Boosting Regressor
+		* Easy Ensemble Classifier
+		* Decision Tree Regressor
 * Two datasets have been used as part of this project from Kaggle: 
 * 	1. Melbourne_houseing_full.csv which has data from 2016 till 2018 
 * 	2. Aus-property-sales-sep2018-april2020.csv
@@ -46,11 +46,11 @@ $ python server.py
 ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
 * Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
-* For Data cleaning tehnique, following criteria used:
-    * Remove the rows with null values
-    * Remove the rows landsize or building area which has 0 value
-    * Remove the rows where building area is greatre than landsize
-    * Suburub with 10 or less property grouped as 'Other'
+* For the data cleaning process the following techniques were applied:
+    * Remove the rows with null values.
+    * Remove the rows where landsize or building area has a 0 value.
+    * Remove the rows where building area is greater than landsize.
+    * Suburbs with 10 or less properties grouped as 'Other'
 * After cleaning the data, we removed price and bedroom outliers from the data.
 * To build confidence around the clean data a distribution plot. This was created to visualise the price trend and it was clearly showing less outliners.
 * Fit and Train the data using test and train model. Linear-regression algorithm was used to fit the model and find out the score. 
@@ -58,7 +58,7 @@ $ python server.py
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
-* The plot below is of the linear regression model. With a 80% fit to the data and mean absolute error of $114,352
+* The plot below is of the linear regression model looking at the Australian house price data. With a 80% fit to the data and mean absolute error of $114,352
 * ![image](comparisonpred.png)
 ## Sentiment Analysis
 * Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis.
@@ -74,7 +74,7 @@ $ python server.py
 
 ## Output
 ![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
-* To develop the user interface the following were used: Use HTML, Javascript and FLask to develop UI interface. This interface gives the end user an easy way to determine what the median house price is for a chosen suburb based on the selection criteria.  
+* To develop the user interface the following were used: Use HTML, Javascript and FLask. This interface gives the end user an easy way to determine what the median house price is for a chosen suburb based on the selection criteria.  
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics
 

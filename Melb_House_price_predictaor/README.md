@@ -29,7 +29,7 @@ $ python server.py
 ![image](dir_structure.gif)
 
 ## Features
-* This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data and then integrate one of the dataset with simple web interface calcuates house price of melbourne suburbs based on RandomForestregressor algorithm.
+* This entire project is comparing multiple features which are very important as part of Real Estate data analysis to filter out valid data then integrate one of the dataset using simple web interface to calcuate house price of melbourne suburbs based on RandomForestregressor algorithm.
 * During our Analysis, Team used following machine learning models to conclude which algorithm works best to predict house prices
  		1. Linear regression
 		2. Balanced Random Forest
@@ -37,7 +37,9 @@ $ python server.py
 		4. Gradient Boosting Regressor
 		5. Easy Ensemble Classifier
 		6. Decision Tree Regressor
-* Two dataset downloaded from Kaggle are -Melbourne_houseing_full.csv which has data from 2016 till 2018 and Aus-property-sales-sep2018-april2020.csv
+* Two dataset has been used as part of this project from Kaggle 
+* 	1. Melbourne_houseing_full.csv which has data from 2016 till 2018 
+* 	2. Aus-property-sales-sep2018-april2020.csv
 * Team apply a dimensionality reduction technique to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. for example, remove the columns which are not very importanat to predict house price like longitude, latititude, loc_pid, lat_pid etc..
 * Team also used chisquare method to determine which features are morr important to build house price prediction model.
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
@@ -55,7 +57,9 @@ $ python server.py
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
 * Compare the predictions if more than one model is used- Need more example here
-* Use Sentiment analysis for real estate to support our analysis that what is causing boost in price increase.
+* ![image](comparisonpred.png)
+* Team uses sentiment analysis technique for real estate dataset, specially word cloud to support our analysis.
+* ![image](Sentiment.png)
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
 * Use HTML, Javascript and FLask to develop UI interface
@@ -63,7 +67,6 @@ $ python server.py
 * stuff
 
 ## Output
-![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/comparisonpred.png)
 ![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics

@@ -81,23 +81,15 @@ $ python server.py
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics
 
+### Technical Requirements
 
-## Create a Jupyter Notebook, Google Colab Notebook, or Amazon SageMaker Notebook to prepare a training and testing dataset.
+* Create a Jupyter Notebook, Google Colab Notebook, or Amazon SageMaker Notebook to prepare a training and testing dataset. Optionally, apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model.
 
+All three notebook types were used: Jupyter Notebook (on a local machine), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in png format. [1][2]
 
- ## Fit the model(s) to the training data.
-
-
- ## Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance.
-
-
- ## Show the predictions using a sample of new data. Compare the predictions if more than one model is used.
-
-
- ## Save PNG images of your visualizations to distribute to the class and instructional team and for inclusion in your presentation and your repo's README.md file.
-
-
- ## Use one new machine learning library, machine learning model, or evaluation metric that hasn't been covered in class.
-
-
- ## Create a README.md in your repo with a write-up summarizing your project. Be sure to include any usage instructions to set up and use the model.
+* Fit the model(s) to the training data.
+* Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance.
+* Show the predictions using a sample of new data. Compare the predictions if more than one model is used.
+* Save PNG images of your visualizations to distribute to the class and instructional team and for inclusion in your presentation and your repo's README.md file.
+* Use one new machine learning library, machine learning model, or evaluation metric that hasn't been covered in class.
+* Create a README.md in your repo with a write-up summarizing your project. Be sure to include any usage instructions to set up and use the model.

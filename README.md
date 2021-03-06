@@ -8,9 +8,13 @@
 * [Sources](#sources)
 
 ## General info
-This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices. The team used all three notebook types: Jupyter Notebook (on local machines), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
+This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices. 
 
-For this project the team crunched both large and smaller datasets, this tested both our patience and Google Colab/AWS SageMakers computational (free/unpaid for) limits. Given the demand on our local machines, the team decided to eacn run separate notebooks to both clean data and verify/crunch different models, with a view to see which model would best fit. In the supplementary material folder, this includes alternative notebooks should you want to see the code itself. This has been summarised in our [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
+The team used three notebook types: Jupyter Notebook (on local machines), [Google Colab](https://colab.research.google.com/drive/1FOjqVT7H5lRAP_aNokAh4r-T0mFHop19) & Amazon SageMaker. Please note that SageMaker notebook instances have been stopped and deleted, artefacts are available in the presentation.
+
+For this project the team crunched both large and smaller datasets, this tested both our patience and Google Colab/AWS SageMakers computational (free/unpaid for) limits. Given the demand on our local machines, the team decided to eacn run separate notebooks to both clean data and verify/crunch different models, with a view to see which model would best fit. 
+
+We have included in the supplementary material folder these alternative notebooks should you want to see the code itself. This has been summarised in our [presentation](https://github.com/nipune/Project-2/blob/main/Project%202_%20House%20Price%20Predictor%20v2.0.pptx).
 	
 ## Technologies
 Project is created with:

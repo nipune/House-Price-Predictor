@@ -2,7 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Project Directory Structure](#directory-structure)
+* [Local Machine Directory Structure](#Local-Machine-Directory-Structure)
 * [Features](#features)
 * [Sentiment Analysis](#Sentiment-Analysis)
 * [Sources](#sources)
@@ -37,7 +37,7 @@ $ cd Melb_house_price_predictor/server
 $ python server.py
 ```
 
-## Directory Structure
+## Local Machine Directory Structure
 ![image](https://github.com/nipune/Project-2/blob/main/Images/dir_structure.gif)
 
 ## Features

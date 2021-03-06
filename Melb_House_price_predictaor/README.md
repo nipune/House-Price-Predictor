@@ -42,9 +42,8 @@ $ python server.py
 * 	2. Aus-property-sales-sep2018-april2020.csv
 * Team apply a dimensionality reduction technique to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. For example, the following columns that were not as important to predict house prices: longitude, latititude, loc_pid, lat_pid etc..
 * Team also used ChiSquare Test to determine which features are more important to build a house price prediction model.
-
-
-
+* The output below is the result from the ChiSquare Test. 
+![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
 * Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
 * For Data cleaning tehnique, following criteria used:
@@ -59,13 +58,17 @@ $ python server.py
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
-* Compare the predictions using linear regression model.
+* The plot below is of the linear regression model. With a 80% fit to the data and mean absolute error of $114,352
 * ![image](comparisonpred.png)
-* Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, specially word cloud to support our analysis.
-* ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
+## Sentiment Analysis
+* Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis.
+* The word cloud was using new articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
 * ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
+*
+*
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
+* 
 * Use HTML, Javascript and FLask to develop UI interface
 * more stuff
 * stuff

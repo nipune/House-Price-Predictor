@@ -54,8 +54,7 @@ $ python server.py
     * Suburbs with 10 or less properties grouped as 'Other'
 * After cleaning the data, we removed price and bedroom outliers from the data.
 * To build confidence around the clean data a distribution plot. This was created to visualise the price trend and it was clearly showing less outliners.
-* As part of features selection the team used the ChiSquare Test to determine which features are more important. The result supported the decision making in what variables would be most suitable to use in building the price prediction model.
-* The output below is the result from the ChiSquare Test. 
+* As part of features selection the team used the ChiSquare Test to determine which features are more important. The result supported the decision making in what variables would be most suitable to use in building the price prediction model. The output below is the result from the ChiSquare Test. 
 * ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Fit and Train the data using test and train model. Linear-regression algorithm was used to fit the model and find out the score. 
 * ![image](model_score.jpg)

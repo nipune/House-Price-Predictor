@@ -44,6 +44,8 @@ $ python server.py
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
 * Use HTML, Javascript and FLask to develop UI interface
+* more stuff
+* stuff
 
 ## Output
 

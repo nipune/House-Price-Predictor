@@ -64,9 +64,13 @@ $ python server.py
 * After cleaning the data, we removed price and bedroom outliers from the data.
 * To build confidence around the clean data a distribution plot. This was created to visualise the price trend and it was clearly showing less outliners.
 * As part of features selection the team used the ChiSquare Test to determine which features are more important. The result supported the decision making in what variables would be most suitable to use in building the price prediction model. The output below is the result from the ChiSquare Test. 
+
 ![image](https://github.com/nipune/Project-2/blob/main/Images/Senitment.png)
+
 * Fit and Train the data using test and train model. Linear-regression algorithm was used to fit the model and find out the score. 
+
 ![image](https://github.com/nipune/Project-2/blob/main/Images/model_score.jpg)
+
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
@@ -78,6 +82,7 @@ $ python server.py
 ## Sentiment Analysis
 * Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis and generate the output.
 * The word cloud used news articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
+
 ![image](https://github.com/nipune/Project-2/blob/main/Images/word%20cloud%20.PNG)
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file

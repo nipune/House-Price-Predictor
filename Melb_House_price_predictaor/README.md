@@ -48,7 +48,7 @@ $ python server.py
 * ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
 * Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
-* For the data cleaning process the following techniques were applied:
+* For the data cleaning process the following data cleansing techniques were applied:
     * Remove the rows with null values.
     * Remove the rows where landsize or building area has a 0 value.
     * Remove the rows where building area is greater than landsize.
@@ -63,8 +63,8 @@ $ python server.py
 * The plot below is of the linear regression model looking at the Australian house price data. With a 80% fit to the data and mean absolute error of $114,352
 * ![image](comparisonpred.png)
 ## Sentiment Analysis
-* Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis.
-* The word cloud was using new articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
+* Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis and generate the output.
+* The word cloud used news articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
 * ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
 *
 * Use this model to predict home price value

@@ -4,6 +4,7 @@
 * [Setup](#setup)
 * [Project Directory Structure](#directory-structure)
 * [Features](#features)
+* [Sentiment Analysis](#Sentiment-Analysis)
 * [Sources](#sources)
 
 ## General info

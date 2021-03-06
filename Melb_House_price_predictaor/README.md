@@ -31,7 +31,7 @@ $ python server.py
 ![image](dir_structure.gif)
 
 ## Features
-* This entire project is comparing multiple features which are very important as part of Real Estate data analysis. By filtering out valid data then integratingating the dataset using a simple web interface. That calcuates predictive house prices of Melbourne suburbs based on the Random Forest Regressor Algorithm.
+* This entire project is comparing multiple features which are very important as part of Real Estate data analysis. By filtering for valid data then integrating the dataset using a simple web interface. The output is a prediction of house prices in Victorian suburbs based on the Random Forest Regressor Algorithm.
 * There were two datasets used as part of this project from Kaggle: 
 	* 1. Melbourne_houseing_full.csv which has data from 2016 till 2018
 	* 2. Aus-property-sales-sep2018-april2020.csv

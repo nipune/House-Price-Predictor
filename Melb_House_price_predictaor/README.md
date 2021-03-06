@@ -8,7 +8,7 @@
 * [Sources](#sources)
 
 ## General info
-This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the best predicition to the actual prices.  
+This project is predicting the median Melbourne House prices based on suburb selection. By using various machine learning teachniques we were able to determine which models gave the closest predicition to the actual prices.  
 	
 ## Technologies
 Project is created with:

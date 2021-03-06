@@ -50,7 +50,7 @@ $ python server.py
 * After cleaning data, Team remove Price and bedroom outliers to remove incorrect data.
 * To get the condifence around the clean data, distribution plot was created to see the price trend and it was clearly showing less outliners.
 * Fit and Train the data using test and train model. and use linear-regression algorithm to fit the model and find out the score. 
-* ![image](model_score.gif)
+* ![image](model_score.jpg)
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here

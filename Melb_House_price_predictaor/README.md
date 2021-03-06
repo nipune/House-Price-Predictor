@@ -12,9 +12,10 @@ This project is predicting the median Melbourne House prices based on suburb sel
 	
 ## Technologies
 Project is created with:
+* SciKit library
 * Flask version: 1.1.2
 * Ajax Javascript version: 3.4.1
-* dash library version: 1.19
+* Dash library version: 1.19
 	
 ## Setup
 To run this project, install flask in your local machine:

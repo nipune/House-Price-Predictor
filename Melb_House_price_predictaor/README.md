@@ -38,12 +38,12 @@ $ python server.py
 	* Easy Ensemble Classifier
 	* Decision Tree Regressor
 * There were two datasets used as part of this project from Kaggle: 
-* 	1. Melbourne_houseing_full.csv which has data from 2016 till 2018
-* 	2. Aus-property-sales-sep2018-april2020.csv
+	* 1. Melbourne_houseing_full.csv which has data from 2016 till 2018
+	* 2. Aus-property-sales-sep2018-april2020.csv
 * Team apply a dimensionality reduction technique to reduce the input features from 21 to 10 in order to perform sanity checks on Melbourne Housing data. For example, the following columns that were not as important to predict house prices: longitude, latititude, loc_pid, lat_pid etc..
 * As part of features selection the team used the ChiSquare Test to determine which features are more important to build a house price prediction model.
 * The output below is the result from the ChiSquare Test. 
-*![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
+* ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
 * Team also used estimators like Mean_absolute_error, root_mean_squared_error and R-square value to detemine the relationship between the model and the dependent variable for predicting house price.
 * Team also perform feature engineering to generate new feature named price_per_sqm to train the model* 
 * For the data cleaning process the following techniques were applied:
@@ -73,7 +73,7 @@ $ python server.py
 * stuff**
 
 ## Output
-*![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
+![Image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/House%20Predictor.GIF)
 * To develop the user interface the following were used: Use HTML, Javascript and FLask. This interface gives the end user an easy way to determine what the median house price is for a chosen suburb based on the selection criteria.  
 ## Sources
 This Webinterface application development is inspired by Machine Learning & Data Science youtube video Tutorial by codebasics

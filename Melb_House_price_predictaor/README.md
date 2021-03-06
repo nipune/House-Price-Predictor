@@ -56,10 +56,11 @@ $ python server.py
 * Use GridSearchCV model to compare LinearRegression, RandomForestRegressor and Decisiontree model to find out the best scoring model
 * RandomForestRegressor gave best score of .75
 * _Evaluate the trained model(s) using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance._ -Need to add more details here
-* Compare the predictions if more than one model is used- Need more example here
+* Compare the predictions using linear regression model.
 * ![image](comparisonpred.png)
-* Team uses sentiment analysis technique for real estate dataset, specially word cloud to support our analysis.
-* ![image](Sentiment.png)
+* Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, specially word cloud to support our analysis.
+* ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/Senitment.png)
+* ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
 * Use HTML, Javascript and FLask to develop UI interface

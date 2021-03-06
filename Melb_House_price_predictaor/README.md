@@ -66,7 +66,7 @@ $ python server.py
 ## Sentiment Analysis
 * Team uses sentiment analysis technique to decide on our parameter model for real estate dataset, we used the Word Cloud to support our analysis and generate the output.
 * The word cloud used news articles that were pulled using the NewsApi searching for the key words 'House Prices Australia'. 
-* ![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
+![image](https://github.com/nipune/Project-2/blob/main/Melb_House_price_predictaor/word%20cloud%20.PNG)
 *
 * Use this model to predict home price value
 * store that model into pickle file and colums into json file
